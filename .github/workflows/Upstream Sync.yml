@@ -7,8 +7,6 @@ on:
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
-    branches:
-      - gd
 
 jobs:
   sync_latest_from_upstream:
