@@ -6,9 +6,6 @@ permissions:
 on:
   schedule:
     - cron: '*/10 * * * *'
-  workflow_run:
-    branches:
-      - gd
   workflow_dispatch:
     branches:
       - gd
