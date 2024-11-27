@@ -6,7 +6,9 @@ permissions:
 on:
   schedule:
     - cron: "0 0 * * *" # every day
-  workflow_dispatch:
+   workflow_dispatch:
+    branches:
+      - gd
 
 jobs:
   sync_latest_from_upstream:
