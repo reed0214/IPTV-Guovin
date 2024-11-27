@@ -8,7 +8,7 @@ on:
     - cron: '*/10 * * * *'
   workflow_run:
     branches:
-      - "gd"
+      - gd
   workflow_dispatch:
     branches:
       - gd
